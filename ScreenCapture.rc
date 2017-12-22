@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SCREEN_CAPTURE DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG_TOOL DIALOG DISCARDABLE  0, 0, 173, 23
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG_CUSTOM DIALOG DISCARDABLE  0, 0, 153, 87
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO_FONTSIZE,7,7,37,73,CBS_DROPDOWNLIST | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC_COLOR,"Static",SS_BLACKFRAME,62,7,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_SCREEN_CAPTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DIALOG_TOOL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_DIALOG_CUSTOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_SAVE_NORMAL     PNG     DISCARDABLE     "resPNG\\save_normal.png"
+IDR_PNG_OK_DOWN         PNG     DISCARDABLE     "resPNG\\ok_down.png"
+IDR_PNG_OK_HOVER        PNG     DISCARDABLE     "resPNG\\ok_hover.png"
+IDR_PNG_OK_NORMAL       PNG     DISCARDABLE     "resPNG\\ok_normal.png"
+IDR_PNG_CANCEL_DOWN     PNG     DISCARDABLE     "resPNG\\cancel_down.png"
+IDR_PNG_CANCEL_HOVER    PNG     DISCARDABLE     "resPNG\\cancel_hover.png"
+IDR_PNG_CANCEL_NORMAL   PNG     DISCARDABLE     "resPNG\\cancel_normal.png"
+IDR_PNG_SAVE_DOWN       PNG     DISCARDABLE     "resPNG\\save_down.png"
+IDR_PNG_SAVE_HOVER      PNG     DISCARDABLE     "resPNG\\save_hover.png"
+IDR_PNG_RECT_NORMAL     PNG     DISCARDABLE     "resPNG\\rectangle_normal.png"
+IDR_PNG_RECT_DOWN       PNG     DISCARDABLE     "resPNG\\rectangle_down.png"
+IDR_PNG_RECT_HOVER      PNG     DISCARDABLE     "resPNG\\rectangle_hover.png"
+IDR_PNG_ELLIPSE_NORMAL  PNG     DISCARDABLE     "resPNG\\ellipse_normal.png"
+IDR_PNG_ELLIPSE_DOWN    PNG     DISCARDABLE     "resPNG\\ellipse_down.png"
+IDR_PNG_ELLIPSE_HOVER   PNG     DISCARDABLE     "resPNG\\ellipse_hover.png"
+IDR_PNG_ARROW_NORMAL    PNG     DISCARDABLE     "resPNG\\arrow_normal.png"
+IDR_PNG_ARROW_DOWN      PNG     DISCARDABLE     "resPNG\\arrow_down.png"
+IDR_PNG_ARROW_HOVER     PNG     DISCARDABLE     "resPNG\\arrow_hover.png"
+IDR_PNG_BRUSH_NORMAL    PNG     DISCARDABLE     "resPNG\\brush_normal.png"
+IDR_PNG_BRUSH_DOWN      PNG     DISCARDABLE     "resPNG\\brush_down.png"
+IDR_PNG_BRUSH_HOVER     PNG     DISCARDABLE     "resPNG\\brush_hover.png"
+IDR_PNG_WORD_NORMAL     PNG     DISCARDABLE     "resPNG\\word_normal.png"
+IDR_PNG_WORD_DOWN       PNG     DISCARDABLE     "resPNG\\word_down.png"
+IDR_PNG_WORD_HOVER      PNG     DISCARDABLE     "resPNG\\word_hover.png"
+IDR_PNG_BACK_NORMAL     PNG     DISCARDABLE     "resPNG\\back_normal.png"
+IDR_PNG_BACK_DOWN       PNG     DISCARDABLE     "resPNG\\back_down.png"
+IDR_PNG_BACK_HOVER      PNG     DISCARDABLE     "resPNG\\back_hover.png"
+IDR_PNG_SIZE_BIG_NORMAL PNG     DISCARDABLE     "resPNG\\size_big_normal.png"
+IDR_PNG_SIZE_BIG_DOWN   PNG     DISCARDABLE     "resPNG\\size_big_down.png"
+IDR_PNG_SIZE_BIG_HOVER  PNG     DISCARDABLE     "resPNG\\size_big_hover.png"
+IDR_PNG_SIZE_MID_DOWN   PNG     DISCARDABLE     "resPNG\\size_mid_down.png"
+IDR_PNG_SIZE_MID_NORMAL PNG     DISCARDABLE     "resPNG\\size_mid_normal.png"
+IDR_PNG_SIZE_MID_HOVER  PNG     DISCARDABLE     "resPNG\\size_mid_hover.png"
+IDR_PNG_SIZE_SMA_NORMAL PNG     DISCARDABLE     "resPNG\\size_small_normal.png"
+IDR_PNG_SIZE_SMA_DOWN   PNG     DISCARDABLE     "resPNG\\size_small_down.png"
+IDR_PNG_SIZE_SMA_HOVER  PNG     DISCARDABLE     "resPNG\\size_small_hover.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_SC_ARROW     CURSOR  DISCARDABLE     "sc_arrow.cur"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
